@@ -59,9 +59,7 @@ export function extractTextFromElement(element) {
         });
       }
     } else if (Array.isArray(current)) {
-      for (const el of current) {
-        stack.push(el);
-      }
+      stack.push.apply(stack, current)
     } else {
       lines.unshift(current);
     }
