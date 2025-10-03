@@ -36,4 +36,3 @@ conf2.plugins = [
   }),
 ];
 
-module.exports = [conf1, conf2];

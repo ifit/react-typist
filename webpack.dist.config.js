@@ -17,4 +17,3 @@ config.plugins = [
   new ExtractTextPlugin('Typist.css', {allChunks: true}),
 ];
 
-module.exports = config;
